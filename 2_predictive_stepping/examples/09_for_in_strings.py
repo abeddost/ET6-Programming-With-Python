@@ -13,4 +13,5 @@ backwards = ""
 for char in to_reverse:
     backwards = char + backwards
 
+print(backwards)
 print("end of program")
