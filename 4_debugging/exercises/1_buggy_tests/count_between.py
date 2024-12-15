@@ -40,6 +40,10 @@ def count_between(numbers: list, lower: int, upper: int) -> int:
     assert isinstance(upper, int), "upper bound must be an integer"
     
     count = 0
+    if lower > upper:
+        swap = lower
+        lower = upper
+        upper = swap
     for num in numbers:
         if lower <= num <= upper:
             count += 1
