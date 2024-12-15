@@ -10,7 +10,7 @@ Created on 14.12.2024
 @author: Abdul Qader Dost
 """
 
-def count_up_to(length):
+def count_up_to(length: int) -> list[int]:
     """ 
     Parameters:
         length: int, the length of the list
