@@ -11,6 +11,7 @@ You can use type() to print the type of a value.
 
 """
 
+
 # Strings: store and work with text data
 a_string = "Pine trees make pinecones."
 a_string = ""  # an empty string is still a string
@@ -34,7 +35,7 @@ a_boolean = False
 # passing
 pass_check_string = isinstance(a_string, str)
 pass_check_integer = isinstance(an_integer, int)
-pass_check_float = isinstance(a_float, float)
+pass_check_float = isinstance(a_float, int)
 pass_check_boolean_as_bool = isinstance(a_boolean, bool)
 pass_check_boolean_as_int = isinstance(a_boolean, int) # Booleans can be integers: True = 1, False = 0
 

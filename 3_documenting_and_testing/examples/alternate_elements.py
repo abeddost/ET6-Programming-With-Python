@@ -10,9 +10,10 @@ Created on 2024-12-06
 Author: Claude AI
 """
 
+
 def alternate_elements(items: list) -> list:
     """Returns a new list containing every other element from the input list.
-    
+    alternate_elements
     Takes any list and returns a new list with elements at even indices
     (0, 2, 4, etc.). The original list is not modified.
     
@@ -35,3 +36,5 @@ def alternate_elements(items: list) -> list:
     assert isinstance(items, list), "input must be a list"
     
     return items[::2]
+
+alternate_elements([1])

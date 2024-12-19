@@ -35,6 +35,7 @@ hand_thing = "glove"
 name = "Poalia"
 
 # using a variable without first assigning a value will throw an error
-toadstool
+toadstool = "undefined"
 
 print("end of script")
+print(name)
